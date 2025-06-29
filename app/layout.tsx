@@ -33,7 +33,7 @@ export default function RootLayout({
       >
       <Provider>
           <Toaster richColors position="top-right" />
-          <div className="min-h-screen max-w-6xl mx-auto ">
+          <div className="min-h-screen max-w-6xl mx-auto bg-white">
 
               {children}
           </div>
