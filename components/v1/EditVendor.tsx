@@ -155,7 +155,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                 type="text"
                                                 id="name"
                                                 value={formData.name}
-                                                className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100 text-black"
                                                 onChange={(e) => handleInputChange("name", e.target.value)}
                                                 placeholder="Enter full name"
                                             />
@@ -188,7 +188,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                 id="bankName"
                                                 value={formData.bankName}
                                                 onChange={(e) => handleInputChange("bankName", e.target.value)}
-                                                className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                className="text-black border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                 placeholder="Enter bank name"
 
                                             />
@@ -203,7 +203,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                 id="bankAccountNo"
                                                 value={formData.bankAccountNo}
                                                 onChange={(e) => handleInputChange("bankAccountNo", e.target.value)}
-                                                className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                className="border text-black p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                 placeholder="Enter account number"
 
                                             />
@@ -229,7 +229,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                 id="addressLine1"
                                                 value={formData.addressLine1}
                                                 onChange={(e) => handleInputChange("addressLine1", e.target.value)}
-                                                className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                className="border text-black p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                 placeholder="Enter street address"
 
                                             />
@@ -244,7 +244,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                 id="addressLine2"
                                                 value={formData.addressLine2}
                                                 onChange={(e) => handleInputChange("addressLine2", e.target.value)}
-                                                className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                className="border p-1 text-black rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                 placeholder="Apartment, suite, etc. (optional)"
 
                                             />
@@ -259,7 +259,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                     id="city"
                                                     value={formData.city}
                                                     onChange={(e) => handleInputChange("city", e.target.value)}
-                                                    className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                    className="border text-black p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                     placeholder="Enter city"
 
                                                 />
@@ -274,7 +274,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                     id="country"
                                                     value={formData.country}
                                                     onChange={(e) => handleInputChange("country", e.target.value)}
-                                                    className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                    className="border p-1 text-black rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                     placeholder="Enter country"
 
                                                 />
@@ -289,7 +289,7 @@ export default function EditVendor({ vendor }: EditVendorProps) {
                                                     id="zipCode"
                                                     value={formData.zipCode}
                                                     onChange={(e) => handleInputChange("zipCode", e.target.value)}
-                                                    className="border p-1 rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
+                                                    className="border p-1 text-black rounded w-full focus:outline-none focus:ring-1 focus:ring-gray-100"
                                                     placeholder="Enter zip code"
 
                                                 />
