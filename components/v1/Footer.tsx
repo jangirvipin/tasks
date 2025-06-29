@@ -11,8 +11,7 @@ export default function Footer() {
                             <h3 className="text-2xl font-bold text-gray-900">VendorHub</h3>
                         </div>
                         <p className="text-gray-600 mb-4 max-w-md">
-                            Streamline your vendor relationships with our comprehensive management solution.
-                            Manage banking information, track partnerships, and keep all your business contacts organized.
+                           Vendor Management System to view and manage all your vendors in one place.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-gray-400 hover:text-gray-600 transition-colors">
